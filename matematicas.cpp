@@ -13,6 +13,24 @@ int restar(int num1, int num2)
     return num1 - num2;
 }
 
+int factorial(int numero)
+{
+    int resultado = 1;
+    for (int i = 1; i <= numero; i++) {
+        resultado = resultado * i;
+    }
+    return resultado;
+}
+
+int potencia(int base, int expo) {
+    int result = 1;
+    while (expo > 0) {
+        result *= base;
+        }
+    return result;
+    }
+}
+
 // Ejemplos con arreglos
 int llenarArreglo(int arreglo[], int tamano)
 {
